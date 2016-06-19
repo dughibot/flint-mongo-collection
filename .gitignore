@@ -1,0 +1,7 @@
+.DS_STORE
+npm-debug.log
+.idea/
+.module-cache/
+build/
+node_modules/
+coverage.html

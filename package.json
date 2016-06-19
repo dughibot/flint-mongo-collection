@@ -1,0 +1,27 @@
+{
+  "name": "flint-mongo-collection",
+  "version": "1.0.0",
+  "description": "A Flint Mongo Collection Component",
+  "main": "MongoCollection.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tleef/flint-mongo-collection.git"
+  },
+  "author": "Tom Lee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tleef/flint-mongo-collection/issues"
+  },
+  "homepage": "https://github.com/tleef/flint-mongo-collection#readme",
+  "devDependencies": {
+    "flint": "github:tleef/flint",
+    "jest-cli": "^12.1.1"
+  },
+  "dependencies": {
+    "flint-mongo-db": "github:tleef/flint-mongo-db",
+    "mongodb": "^2.1.18"
+  }
+}
