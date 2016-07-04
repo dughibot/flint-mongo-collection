@@ -23,7 +23,7 @@ const MongoCollection = {
       config: config.dbOptions
     });
 
-    comp.initialize.uses(db.collection);
+    this.initialize.uses(db.collection);
 
     this.setState({
       collectionName: config.collectionName,
@@ -65,6 +65,4 @@ mongoCollectionFunctions.forEach((fnName) => {
   }
 });
 
-var comp = Flint.Component.define(MongoCollection);
-
-module.exports = comp;
+module.exports = Flint.Component.define(MongoCollection);
