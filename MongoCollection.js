@@ -66,3 +66,4 @@ mongoCollectionFunctions.forEach((fnName) => {
 });
 
 module.exports = Flint.Component.define(MongoCollection);
+module.exports.commands = mongoCollectionFunctions.slice();
